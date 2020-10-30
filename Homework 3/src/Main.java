@@ -1,8 +1,8 @@
-public class Main {//lack of main
+public class Main {//lack of main class
     public static void main(String[] args) {
         int shift = 5;
         String message = "uzgqnh%xyfynh%{tni%rfns-Xywnsl`b%fwlx.";
-        System.out.println(encrypt(shift, message));
+        System.out.println(encrypt(shift, message)); //removed comment
         System.out.println(decrypt(shift, message));
     }
     private static String encrypt(int shift, String message) {//moved both methods inside main class
